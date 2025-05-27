@@ -275,7 +275,7 @@ lws_client_connect_3_connect(struct lws *wsi, const char *ads,
 		 * If the connection failed, the OS-level errno may be
 		 * something like EINPROGRESS rather than the actual problem
 		 * that prevented a connection. This value will represent the
-		 * “real” problem that we should report to the caller.
+		 * "real" problem that we should report to the caller.
 		 */
 		int real_errno = 0;
 
